@@ -1,0 +1,887 @@
+body{
+    background-color: #3489c9;
+}
+
+#bottom {
+    position: absolute;
+    top: 545px;
+    left: 670px;
+    width: 490px;
+    height: 250px;
+    background: #240e0f;
+    border-radius: 300px / 200px;
+    transform: rotate(5deg);
+  }
+  
+#mid {
+    position: absolute;
+    top: 420px;
+    left: 745px;
+    width: 330px;
+    height: 170px;
+    background: #474d5e;
+    transform: rotate(2deg);
+}
+#top {
+    position: absolute;
+    top: 250px;
+    left: 760px;
+    width: 300px;
+    height: 250px;
+    background: #635e69;
+    background: linear-gradient(177deg, #94a1b5 20%, #36302f 40%);
+    border-radius: 400px / 300px;
+    transform: rotate(-2deg);
+}
+#toplip {
+    position: absolute;
+    top: 270px;
+    left: 740px;
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(-40deg, #4f4543 20%, #997e79 50%);
+    border-radius: 60px 30px 0px 0px;
+    clip-path: polygon(51% 40%, 60% 45%, 72% 41%, 98% 44%, 95% 81%, 66% 78%, 34% 80%, 3% 85%, 0 48%, 15% 44%);
+    transform: rotate(-2deg);
+}
+#toplipshadow {
+    position: absolute;
+    top: 389px;
+    left: 732px;
+    width: 364px;
+    height: 120px;
+    background: #24282b;
+    border-radius: 800px / 400px;
+    transform: rotate(-2deg);
+}
+#midshadow {
+    position: absolute;
+    top: 510px;
+    left: 748px;
+    width: 340px;
+    height: 120px;
+    background: #473533;
+    border-radius: 800px / 400px;
+    transform: rotate(-1deg);
+}
+#fan1 {
+    position: absolute;
+    top: 530px;
+    left: 820px;
+    width: 100px;
+    height: 95px;
+    background: linear-gradient(84deg, #373b29 10%, #808555, #333b29 90%);
+    clip-path: polygon(100% 0, 94% 100%, 24% 100%, 0 0, 54% 13%);
+}
+#fan2 {
+    position: absolute;
+    top: 530px;
+    left: 900px;
+    width: 120px;
+    height: 100px;
+    background: linear-gradient(100deg, #373b29 20%, #808555, #333b29 90%);
+    clip-path: polygon(100% 0, 79% 100%, 20% 95%, 24% 0, 60% 13%);
+}
+#fan3 {
+    position: absolute;
+    top: 530px;
+    left: 980px;
+    width: 120px;
+    height: 115px;
+    background: linear-gradient(110deg, #373b29 20%, #808555, #333b29 90%);
+    clip-path: polygon(100% 18%, 61% 95%, 20% 89%, 38% 0, 66% 18%);
+}
+#fan4 {
+    position: absolute;
+    top: 540px;
+    left: 1060px;
+    width: 120px;
+    height: 115px;
+    background: linear-gradient(130deg, #373b29 20%, #808555, #333b29 80%);
+    clip-path: polygon(100% 49%, 36% 98%, 3% 88%, 40% 10%, 57% 36%);
+}
+#bevel0 {
+    position: absolute;
+    top: 610px;
+    left: 660px;
+    width: 160px;
+    height: 130px;
+    transform: rotate(10deg);
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 95%, 10% 86%, 9% 71%, 26% 59%, 50% 41%);
+    background: linear-gradient(140deg, #9c5d5d, #472428 50%, #5c9cd1);
+}
+#bevel1 {
+    position: absolute;
+    top: 640px;
+    left: 670px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 13% 65%, 26% 59%, 50% 41%);
+    background: linear-gradient(140deg, #9c5d5d, #381c1f 50%, #5c9cd1);
+}
+#bevel2 {
+    position: absolute;
+    top: 660px;
+    left: 700px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 34% 91%, 10% 86%, 10% 65%, 26% 59%, 50% 41%);
+    transform: skewX(10deg);
+    transform: rotate(-10deg);
+    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+}
+#bevel3 {
+    position: absolute;
+    top: 668px;
+    left: 735px;
+    width: 160px;
+    height: 130px;
+    clip-path: polygon(73% 11%, 99% 0, 95% 26%, 70% 69%, 29% 94%, 12% 88%, 9% 71%, 26% 59%, 50% 41%);
+    transform: skewX(10deg);
+    transform: rotate(-20deg);
+    background: linear-gradient(140deg, #381c1f 50%, #5c9cd1);
+}
+#frontplate0 {
+    position: absolute;
+    top: 540px;
+    left: 700px;
+    width: 100px;
+    height: 80px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 60%);
+}
+#frontplate1 {
+    position: absolute;
+    top: 545px;
+    left: 764px;
+    width: 70px;
+    height: 60px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate2 {
+    position: absolute;
+    top: 575px;
+    left: 760px;
+    width: 50px;
+    height: 45px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate3 {
+    position: absolute;
+    top: 575px;
+    left: 795px;
+    width: 60px;
+    height: 40px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate4 {
+    position: absolute;
+    top: 595px;
+    left: 730px;
+    width: 130px;
+    height: 100px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 50% 91%, 15% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate5 {
+    position: absolute;
+    top: 590px;
+    left: 656px;
+    width: 110px;
+    height: 120px;
+    transform: rotate(10deg);
+    clip-path: polygon(35% 11%, 65% 18%, 84% 41%, 84% 74%, 30% 91%, 10% 86%, 3% 54%, 11% 28%);
+    background: linear-gradient(140deg, #f0cd7d, #381c1f 50%);
+}
+#frontplate6 {
+    position: absolute;
+    top: 530px;
+    left: 830px;
+    width: 330px;
+    height: 260px;
+    transform: rotate(5deg);
+    background: linear-gradient(250deg, #f0cd7d, #361b1e 20%, #241315);
+    clip-path: ellipse(50% 35% at 50% 50%);
+}
+#scope1 {
+    position: absolute;
+    top: 540px;
+    left: 635px;
+    width: 128px;
+    height: 120px;
+    transform: rotate(3deg);
+    clip-path: polygon(88% 36%, 100% 45%, 98% 64%, 88% 71%, 31% 68%, 13% 71%, 1% 61%, 2% 41%, 10% 30%);
+    background: linear-gradient(170deg, #ffedc4, #381c1f 50%);
+}
+#scope2 {
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    width: 128px;
+    height: 110px;
+    transform: rotate(-3deg);
+    clip-path: polygon(39% 35%, 69% 38%, 72% 62%, 37% 65%, 24% 63%, 9% 65%, 0 54%, 5% 36%, 19% 38%);
+    background: linear-gradient(170deg, #f5efe1, #2e2627 50%);
+}
+#botbevel1 {
+    position: absolute;
+    top: 640px;
+    left: 820px;
+    width: 240px;
+    height: 100px;
+    transform: rotate(5deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg,#9c5d5d, #331b1e 40%, #5c9cd1);
+}
+#botbevel2 {
+    position: absolute;
+    top: 655px;
+    left: 815px;
+    width: 256px;
+    height: 120px;
+    transform: rotate(7deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#botbevel3 {
+    position: absolute;
+    top: 673px;
+    left: 810px;
+    width: 230px;
+    height: 138px;
+    transform: rotate(7deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#botbevel4 {
+    position: absolute;
+    top: 703px;
+    left: 800px;
+    width: 200px;
+    height: 145px;
+    transform: rotate(2deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#botbevel5 {
+    position: absolute;
+    top: 700px;
+    left: 905px;
+    width: 120px;
+    height: 145px;
+    transform: rotate(15deg);
+    clip-path: polygon(69% 26%, 97% 38%, 96% 47%, 84% 56%, 52% 53%, 21% 57%, 10% 46%, 12% 33%, 35% 27%);
+    background: linear-gradient(180deg, #331b1e 40%, #5c9cd1);
+}
+#gear {
+    position: absolute;
+    top: 700px;
+    left: 820px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #2b2122;
+}
+#gear1 {
+    position: absolute;
+    top: 690px;
+    left: 810px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #2b2122;
+    clip-path: polygon(14% 10%, 2% 22%, 38% 56%, 8% 87%, 19% 98%, 50% 68%, 83% 99%, 95% 88%, 63% 56%, 99% 21%, 88% 9%, 50% 44%);
+}
+#gear2 {
+    position: absolute;
+    top: 690px;
+    left: 810px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #2b2122;
+    clip-path: polygon(14% 10%, 2% 22%, 38% 56%, 8% 87%, 19% 98%, 50% 68%, 83% 99%, 95% 88%, 63% 56%, 99% 21%, 88% 9%, 50% 44%);
+    transform: rotate(40deg);
+}
+#bolt1 {
+    position: absolute;
+    top: 610px;
+    left: 810px;
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;
+    background: linear-gradient(20deg, #261315 40%, #666f7a 50%);
+}
+#bolt2 {
+    position: absolute;
+    top: 622px;
+    left: 825px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(140deg, #a4b0bd , #30363d 60%);
+}
+#bolt3 {
+    position: absolute;
+    top: 632px;
+    left: 833px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #2e181a
+}
+
+#tail1 {
+    position: absolute;
+    top: 640px;
+    left: 1145px;
+    width: 80px;
+    height: 50px;
+    clip-path: polygon(25% 1%, 38% 15%, 46% 47%, 40% 80%, 24% 98%, 0 100%, 0 0);
+    transform: rotate(6deg);
+    background: linear-gradient(#5a7d62 30%, #243630 70%)
+}
+#tail2 {
+    position: absolute;
+    top: 653px;
+    left: 1170px;
+    width: 110px;
+    height: 30px;
+    clip-path: polygon(25% 1%, 38% 15%, 46% 47%, 40% 80%, 24% 98%, 0 100%, 0 0);
+    transform: rotate(6deg);
+    background: linear-gradient(#699172, #243630)
+}
+#tail3 {
+    position: absolute;
+    top: 646px;
+    left: 1165px;
+    width: 70px;
+    height: 40px;
+    clip-path: polygon(25% 1%, 38% 15%, 46% 47%, 40% 80%, 24% 98%, 0 100%, 0 0);
+    transform: rotate(182deg);
+    background: linear-gradient(#243630, #699172)
+}
+#tail4 {
+    position: absolute;
+    top: 657px;
+    left: 1202px;
+    width: 50px;
+    height: 20px;
+    clip-path: polygon(25% 1%, 38% 15%, 46% 47%, 40% 80%, 24% 98%, 0 100%, 0 0);
+    transform: rotate(183deg);
+    background: linear-gradient(#243630 20%, #699172)
+}
+#tail5 {
+    position: absolute;
+    top: 662px;
+    left: 1265px;
+    width: 35px;
+    height: 20px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(10deg);
+    background: #583a63
+}
+#tail6 {
+    position: absolute;
+    top: 700px;
+    left: 1250px;
+    width: 30px;
+    height: 15px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(40deg);
+    background: #583a63
+}
+#tail7 {
+    position: absolute;
+    top: 730px;
+    left: 1220px;
+    width: 40px;
+    height: 20px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(90deg);
+    background: #583a63
+}
+#tail8 {
+    position: absolute;
+    top: 705px;
+    left: 1195px;
+    width: 35px;
+    height: 15px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(120deg);
+    background: #583a63
+}
+#tail9 {
+    position: absolute;
+    top: 620px;
+    left: 1200px;
+    width: 30px;
+    height: 12px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(-120deg);
+    background: #71527d
+}
+#tail10 {
+    position: absolute;
+    top: 595px;
+    left: 1220px;
+    width: 50px;
+    height: 15px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(-90deg);
+    background: #71527d
+}
+#tail11 {
+    position: absolute;
+    top: 620px;
+    left: 1260px;
+    width: 30px;
+    height: 15px;
+    border-radius: 29% 71% 73% 27% / 48% 48% 52% 52%;
+    transform: rotate(-40deg);
+    background: #60456b
+}
+#leg1 {
+    position: absolute;
+    top: 660px;
+    left: 820px;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(73% 11%, 68% 20%, 95% 53%, 70% 61%, 46% 86%, 26% 67%, 13% 68%, 6% 28%, 12% 1%, 44% 10%);
+    background: linear-gradient(130deg, #dec36a, #5e4426 60%)
+}
+#foot1 {
+    position: absolute;
+    top: 720px;
+    left: 867px;
+    width: 150px;
+    height: 200px;
+    clip-path: polygon(64% 36%, 83% 36%, 67% 48%, 76% 62%, 64% 57%, 54% 43%, 15% 32%, 5% 4%, 13% 0, 23% 23%);
+    background-image: repeating-linear-gradient(120deg, #5e4426, #826d3b 7%, #c2a561 10%);
+}
+#leg2 {
+    position: absolute;
+    top: 660px;
+    left: 1030px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-20deg);
+    clip-path: polygon(72% 14%, 69% 22%, 95% 60%, 68% 58%, 38% 78%, 26% 67%, 13% 68%, 6% 28%, 12% 1%, 50% 0);
+    background: linear-gradient(130deg, #b8a156, #5e4426 60%)
+}
+#foot2 {
+    position: absolute;
+    top: 730px;
+    left: 1075px;
+    width: 150px;
+    height: 150px;
+    transform: skewY(10deg);
+    clip-path: polygon(64% 36%, 83% 36%, 67% 48%, 76% 62%, 64% 57%, 54% 43%, 15% 32%, 5% 4%, 13% 0, 23% 23%);
+    background-image: repeating-linear-gradient(120deg, #5e4426, #826d3b 7%, #c2a561 10%);
+}
+#foot3 {
+    position: absolute;
+    top: 783px;
+    left: 750px;
+    width: 130px;
+    height: 140px;
+    transform: rotate(16deg);
+    clip-path: polygon(64% 36%, 83% 36%, 67% 48%, 76% 62%, 64% 57%, 54% 43%, 15% 32%, 5% 4%, 13% 0, 23% 23%);
+    background-image: repeating-linear-gradient(120deg, #26291f, #4e543b 7%, #879164 10%);
+}
+#foot4 {
+    position: absolute;
+    top: 780px;
+    left: 990px;
+    width: 130px;
+    height: 140px;
+    clip-path: polygon(64% 36%, 83% 36%, 67% 48%, 76% 62%, 64% 57%, 54% 43%, 15% 32%, 5% 4%, 13% 0, 23% 23%);
+    background-image: repeating-linear-gradient(120deg, #26291f, #4e543b 7%, #879164 10%);
+}
+#fanback {
+    position: absolute;
+    top: 470px;
+    left: 850px;
+    width: 270px;
+    height: 250px;
+    transform: scaleY(1.2);
+    rotate: 5deg;
+    clip-path: polygon(39% 36%, 79% 40%, 97% 53%, 95% 65%, 84% 67%, 50% 64%, 23% 64%, 8% 67%, 0 57%, 8% 46%);
+    background: linear-gradient(0deg, #212324 40%, #81898a 50%);
+}
+
+#house1 {
+    position: absolute;
+    top: 460px;
+    left: 756px;
+    width: 60px;
+    height: 80px;
+    clip-path: polygon(6% 8%, 64% 1%, 60% 89%, 10% 99%);
+    background: linear-gradient(170deg, #64696e 10%, #d4d1c3 30%);
+}
+#house2 {
+    position: absolute;
+    top: 453px;
+    left: 797px;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(6% 8%, 64% 1%, 60% 89%, 5% 99%);
+    background: linear-gradient(170deg, #64696e 10%, #d4d1c3 30%);
+}
+#house3 {
+    position: absolute;
+    top: 445px;
+    left: 850px;
+    width: 75px;
+    height: 80px;
+    clip-path: polygon(6% 8%, 64% 1%, 60% 96%, 5% 98%);
+    background: linear-gradient(170deg, #64696e 10%, #d4d1c3 30%);
+}
+#house4 {
+    position: absolute;
+    top: 448px;
+    left: 960px;
+    width: 75px;
+    height: 80px;
+    clip-path: polygon(6% 0, 64% 6%, 60% 95%, 8% 95%);
+    background: linear-gradient(170deg, #64696e 10%, #d4d1c3 30%);
+}
+#house5 {
+    position: absolute;
+    top: 455px;
+    left: 1008px;
+    width: 75px;
+    height: 70px;
+    rotate: 4deg;
+    clip-path: polygon(6% 0, 64% 6%, 60% 95%, 8% 95%);
+    background: linear-gradient(170deg, #64696e 10%, #d4d1c3 30%);
+}
+#house6 {
+    position: absolute;
+    top: 407px;
+    left: 895px;
+    width: 75px;
+    height: 120px;
+    rotate: 4deg;
+    clip-path: polygon(9% 34%, 59% 14%, 57% 95%, 11% 96%);
+    background: #6b655f
+}
+#house7 {
+    position: absolute;
+    top: 435px;
+    left: 915px;
+    width: 75px;
+    height: 90px;
+    rotate: 4deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: #946e53
+}
+#house8 {
+    position: absolute;
+    top: 420px;
+    left: 715px;
+    width: 130px;
+    height: 90px;
+    rotate: -1deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: linear-gradient(90deg, #a8856c 40%, #3d332c 45%)
+}
+#house9 {
+    position: absolute;
+    top: 492px;
+    left: 1010px;
+    width: 300px;
+    height: 70px;
+    rotate: 7deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: #75736a
+}
+#house10 {
+    position: absolute;
+    top: 510px;
+    left: 1010px;
+    width: 150px;
+    height: 80px;
+    rotate: 7deg;
+    clip-path: polygon(0% 15%, 0 0, 16% 1%, 59% 2%, 63% 39%, 95% 40%, 95% 85%, 51% 85%, 0% 85%);
+    background: #78484b
+}
+#house12 {
+    position: absolute;
+    top: 405px;
+    left: 696px;
+    width: 100px;
+    height: 90px;
+    rotate: -1deg;
+    clip-path: polygon(9% 17%, 55% 17%, 53% 95%, 11% 96%);
+    background: linear-gradient(90deg, #557a82 40%, #333f47 45%)
+    
+}
+
+#housewood {
+    position: absolute;
+    top: 440px;
+    left: 700px;
+    width: 650px;
+    height: 80px;
+    rotate:-3deg;
+    clip-path: polygon(11% 5%, 55% 27%, 53% 95%, 11% 96%);
+    background: #4d3422
+}
+#roof1 {
+    position: absolute;
+    top: 400px;
+    left: 745px;
+    width: 200px;
+    height: 100px;
+    rotate:-3deg;
+    clip-path: polygon(40% 28%, 100% 29%, 75% 57%, 0 66%);
+    background: #8a3830
+}
+#roof2 {
+    position: absolute;
+    top: 400px;
+    left: 934px;
+    width: 100px;
+    height: 100px;
+    rotate:3deg;
+    clip-path: polygon(13% 29%, 62% 30%, 81% 66%, 31% 65%);
+    background: #8a3830
+}
+#roof3 {
+    position: absolute;
+    top: 400px;
+    left: 985px;
+    width: 100px;
+    height: 100px;
+    rotate:3deg;
+    clip-path: polygon(9% 32%, 57% 33%, 81% 66%, 24% 61%);
+    background: #8a3830
+}
+
+#midback {
+    position: absolute;
+    top: 440px;
+    left: 730px;
+    width: 370px;
+    height: 120px;
+    background: #42413f;
+    border-radius: 800px / 400px;
+    transform: rotate(1deg);
+}
+
+#balc {
+    position: absolute;
+    top: 250px;
+    left: 920px;
+    width: 80px;
+    height: 80px;
+    background: #7d3e38;
+    clip-path: polygon(45% 0, 85% 12%, 92% 70%, 81% 100%, 48% 89%, 46% 76%, 37% 51%, 20% 29%, 4% 19%);
+}
+#balc1 {
+    position: absolute;
+    top: 250px;
+    left: 924px;
+    width: 75px;
+    height: 75px;
+    background: #2e333b;
+    clip-path: polygon(45% 6%, 81% 18%, 88% 69%, 51% 60%);
+}
+#balc2 {
+    position: absolute;
+    top: 270px;
+    left: 960px;
+    width: 55px;
+    height: 56px;
+    background: linear-gradient(#646d7d 30%, #313640 70%);
+    clip-path: polygon(91% 23%, 98% 33%, 60% 59%, 32% 95%, 0% 38%);
+}
+
+#rail1 {
+    position: absolute;
+    top: 292px;
+    left: 1000px;
+    width: 80px;
+    height: 75px;
+    background: linear-gradient(#313640 30%, #6c7fa1 40%, #313640 70%);
+    clip-path: polygon(20% 11%, 80% 14%, 88% 35%, 90% 61%, 85% 81%, 25% 78%, 28% 60%, 25% 31%);
+}
+#rail2 {
+    position: absolute;
+    top: 292px;
+    left: 1000px;
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(#a7a7b5 30%, #313640 80%);
+    clip-path: polygon(20% 11%, 57% 16%, 84% 28%, 85% 62%, 66% 60%, 46% 57%, 18% 56%, 20% 31%);
+}
+#eyeshadow {
+    position: absolute;
+    top: 280px;
+    left: 740px;
+    width: 90px;
+    height: 80px;
+    background: linear-gradient(#96a2b3 30%, #323840 60%);
+    clip-path: polygon(56% 24%, 61% 36%, 59% 53%, 49% 63%, 34% 70%, 45% 79%, 62% 73%, 72% 62%, 77% 46%, 76% 28%);
+}
+#eyeshadow2 {
+    position: absolute;
+    top: 257px;
+    left: 850px;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(#96a2b3 30%, #323840 60%);
+    clip-path: polygon(50% 20%, 66% 45%, 62% 60%, 48% 69%, 22% 62%, 35% 76%, 50% 79%, 66% 74%, 78% 55%, 76% 37%);
+}
+#eye {
+    position: absolute;
+    top: 280px;
+    left: 866px;
+    width: 43px;
+    height: 40px;
+    background: #b39c9a;
+    border-radius: 48%
+}
+#eye1 {
+    position: absolute;
+    top: 300px;
+    left: 771px;
+    width: 22px;
+    height: 38px;
+    transform: rotate(30deg);
+    background: #b39c9a;
+    border-radius: 48%
+}
+#eye2 {
+    position: absolute;
+    top: 305px;
+    left: 774px;
+    width: 17px;
+    height: 28px;
+    transform: rotate(30deg);
+    background: #232629;
+    border-radius: 48%
+}
+#eye3 {
+    position: absolute;
+    top: 286px;
+    left: 873px;
+    width: 27px;
+    height: 26px;
+    background: #232629;
+    border-radius: 48%
+}
+
+#tree1 {
+    position: absolute;
+    top: 310px;
+    left: 910px;
+    width: 140px;
+    height: 150px;
+    clip-path: polygon(27% 93%, 20% 90%, 17% 81%, 8% 78%, 1% 72%, 5% 64%, 14% 61%, 9% 53%, 12% 43%, 18% 39%, 27% 39%, 22% 31%, 23% 23%, 31% 16%, 41% 20%, 55% 12%, 69% 17%, 71% 29%, 65% 36%, 66% 43%, 75% 44%, 78% 52%, 79% 62%, 72% 69%, 65% 69%, 64% 79%, 62% 86%, 54% 92%, 41% 91%);
+    background: linear-gradient(170deg, #85a854 40%, #366e38 70%);
+}
+#tree2 {
+    position: absolute;
+    top: 310px;
+    left: 970px;
+    width: 180px;
+    height: 170px;
+    clip-path: polygon(6% 77%, 3% 73%, 3% 66%, 9% 63%, 16% 63%, 13% 59%, 13% 53%, 19% 51%, 26% 53%, 29% 56%, 35% 56%, 34% 51%, 36% 46%, 41% 41%, 48% 40%, 57% 38%, 63% 40%, 68% 44%, 72% 49%, 77% 54%, 84% 51%, 89% 54%, 93% 58%, 96% 66%, 92% 75%, 87% 83%, 78% 89%);
+    background: linear-gradient(170deg, #85a854 40%, #366e38 70%);
+}
+#tree3 {
+    position: absolute;
+    top: 410px;
+    left: 930px;
+    width: 150px;
+    height: 200px;
+    clip-path: polygon(28% 75%, 14% 71%, 14% 62%, 19% 54%, 25% 53%, 33% 55%, 38% 62%, 47% 62%, 48% 55%, 55% 47%, 67% 45%, 83% 48%, 88% 61%, 95% 61%, 98% 67%, 95% 75%, 82% 80%);
+    background: linear-gradient(170deg, #85a854 40%, #366e38 70%);
+}
+#tree4 {
+    position: absolute;
+    top: 420px;
+    left: 850px;
+    width: 170px;
+    height: 156px;
+    clip-path: polygon(18% 87%, 10% 84%, 8% 77%, 16% 68%, 14% 57%, 21% 51%, 33% 50%, 39% 36%, 54% 29%, 69% 32%, 84% 53%, 83% 60%, 93% 64%, 97% 73%, 92% 83%, 76% 90%, 16% 95%, 18% 88%, 18% 88%, 19% 86%);
+    background: linear-gradient(170deg, #85a854 40%, #366e38 70%);
+}
+#chim1 {
+    position: absolute;
+    top: 210px;
+    left: 1098px;
+    width: 40px;
+    height: 230px;
+    rotate: 8deg;
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
+}
+#chim2 {
+    position: absolute;
+    top: 320px;
+    left: 1080px;
+    width: 70px;
+    height: 50px;
+    rotate: 8deg;
+    clip-path: polygon(50% 0%, 78% 6%, 95% 24%, 99% 40%, 76% 40%, 50% 40%, 26% 40%, 2% 39%, 6% 23%, 24% 6%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
+}
+#chim3 {
+    position: absolute;
+    top: 200px;
+    left: 1096px;
+    width: 70px;
+    height: 50px;
+    rotate: 8deg;
+    clip-path: polygon(50% 0%, 78% 6%, 95% 24%, 99% 40%, 76% 40%, 50% 40%, 26% 40%, 2% 39%, 6% 23%, 24% 6%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
+}
+#chim4 {
+    position: absolute;
+    top: 240px;
+    left: 1090px;
+    width: 70px;
+    height: 50px;
+    rotate: 8deg;
+    clip-path: polygon(51% 3%, 77% 8%, 95% 24%, 87% 33%, 75% 31%, 51% 29%, 26% 33%, 12% 33%, 6% 23%, 24% 8%);
+    background: linear-gradient(90deg, #c9abac 10%, #732e30 50%, #361415 90%);
+}
+#chim5 {
+    position: absolute;
+    top: 260px;
+    left: 1036px;
+    width: 23px;
+    height: 55px;
+    rotate: 5deg;
+    background: linear-gradient(90deg, #ad9590 10%, #5b677a 40%, #121821 90%);
+}
+#chim6 {
+    position: absolute;
+    top: 222px;
+    left: 1032px;
+    width: 40px;
+    height: 45px;
+    rotate: 5deg;
+    clip-path: polygon(49% 19%, 80% 24%, 93% 40%, 88% 68%, 75% 90%, 50% 100%, 22% 90%, 11% 68%, 5% 40%, 19% 24%);
+    background: linear-gradient(90deg, #ad9590 10%, #5b677a 40%, #121821 90%);
+}
+#chim7 {
+    position: absolute;
+    top: 216px;
+    left: 1033px;
+    width: 40px;
+    height: 20px;
+    rotate: 5deg;
+    clip-path: polygon(49% 19%, 80% 24%, 93% 40%, 88% 68%, 75% 90%, 50% 100%, 22% 90%, 11% 68%, 5% 40%, 19% 24%);
+    background: linear-gradient(90deg, #ad9590 10%, #5b677a 30%, #121821 90%);
+}
